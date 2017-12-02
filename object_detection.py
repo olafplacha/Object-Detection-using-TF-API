@@ -65,7 +65,7 @@ def load_image_into_numpy_array(image):
 #get video
 cap = cv2.VideoCapture('Driving_SanFrancisco.avi')
 #declaring video writer
-out = cv2.VideoWriter('RESULT_India.avi', -1, 20.0, None, True)
+out = cv2.VideoWriter('RESULT.avi', -1, 20.0, None, True)
 with detection_graph.as_default():
   with tf.Session(graph=detection_graph) as sess:
     while cap.isOpened():
