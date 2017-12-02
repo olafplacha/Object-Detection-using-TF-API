@@ -1,5 +1,4 @@
-# Object Detectio using TF API
-Object Detection using Tensorflow API
+# Object Detection using TensorFlow API
 A project created for Giscle Internship
 
 <p align="center">
